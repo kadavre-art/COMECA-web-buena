@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
+
+
+#Introduccion1{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    color: #1c52a2;
+    margin-bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 70px;
+}
+
+
+
+.intro{         /*cuadro azul fuerte*/
+    width: 700px;
+    height: 300px;
+    
+    padding: 25px 25px;
+    align-items: center;
+      
+    font-size: 45px;
+    color: #fff;
+    
+}
+
+.intro, .parrafo{
+    font-size: 18px;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 1024px){
+    .intro{
+        width: 100%;
+        height: auto;
+        
+    }
+} 
+
+@media (max-width: 1024px){
+    .introx{
+        text-align: center;
+        font-size: 70px;
+    }
+}
+
+

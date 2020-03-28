@@ -1,0 +1,53 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+#politicas{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;   
+    flex-wrap: wrap;
+}
+
+#politicas1{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    margin: auto;
+    font-size: 20px;
+    font-family: 'Gill Sans MT';
+    color: #1c52a2;
+    padding: 5px;
+    padding-top: 10px;
+    
+}
+
+.textpol{
+    margin: auto;
+    width: 700px;
+    color: #1c52a2;
+    font-size: 15px;
+    justify-content: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 1024px){
+    .textpol{
+        width: 100%;
+        padding: 15px;
+        color: #fff;
+        background: #1c52a2;
+        
+    }
+}
+
+
+

@@ -1,0 +1,54 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+#padre3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #1f3764;
+    padding-bottom: 20px;
+}
+
+
+.medicamentos{
+    width: 450px;
+    background: #1f3764;
+    
+}
+
+.med{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans MT';
+    color: #fff;
+}
+
+.hijo3{
+    color: #fff;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+.material{
+    width: 450px;
+    background: #1f3764;
+}
+
+.mat{
+    font-size: 30px;
+    padding: 20px;
+    font-family: 'Gill Sans MT';
+    color: #fff;
+}
+
+.hijo4{
+    color: #fff;
+    font-size: 17px;
+    margin-left: 20px;
+}
+
+
+

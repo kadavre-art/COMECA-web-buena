@@ -1,0 +1,56 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.valores{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caja, h2{
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+article{
+    color: #fff;   
+    font-size: 18px;
+
+}
+
+.caja{
+    background: #22a8cb;
+    /*border: 1px solid black;*/
+    padding: 15px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.valores .caja, p{   
+    font-size: 18px;
+    color: #fff;
+}
+
+.animado{
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.mostrarArriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+    0%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

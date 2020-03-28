@@ -1,0 +1,43 @@
+
+
+.blanco{
+    padding-top: 30px;
+}
+
+
+.copy{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.copy1{
+    font-size: 15px;
+}
+
+.copy2{
+    font-size: 15px;
+}
+
+.copy3{
+    font-size: 12px;
+    color: goldenrod;
+}
+
+@media (max-width: 1024px){
+    .blanco{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .copy1{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px){
+    .copy2{
+        font-size: 12px;
+    }
+}

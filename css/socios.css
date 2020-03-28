@@ -1,0 +1,42 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+#socios, .socios1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socios1{
+    width: 700px;
+    color: #1c52a2;
+    font-family: 'Gill Sans MT';
+    font-size: 20px;
+    padding: 20px;
+    
+}
+
+.soc{
+    font-size: 30px;
+}
+
+@media(max-width: 1024px){
+    .soc{
+    font-family: 'Gill Sans MT';
+    color: #fff;
+    font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px){
+    .socios1{
+        width: 100%;
+        font-size: 15px;background: #1c52a2;
+        color: #fff;
+        
+
+    }
+}

@@ -1,0 +1,45 @@
+
+
+
+#blog .introd{
+    
+}
+
+/*#blog h2{
+    text-align: center;
+}*/
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#blog article{
+    margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width: 170px;/*280px*/ 
+    cursor: pointer;   
+}
+
+
+#blog .contenedor p{
+    text-align: center;
+}
+
+/*@media (min-width: 480px){
+    #blog h2{
+         color: #1c3763;
+         font-size: 30px;
+    }
+}*/
+
+@media (max-width: 1024px){
+    #blog .animado{
+        justify-content: center;
+        width: 20%;
+    }
+}

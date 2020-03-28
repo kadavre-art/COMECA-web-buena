@@ -1,0 +1,53 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+#padre{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.hijo0{
+    width: 500px;
+}
+
+
+.hijo2{
+    width: 500px;
+    padding: 15px;
+    background: #1c3763;
+}
+
+
+@media (max-width:1024px){ 
+    #padre{
+        width: 90%;
+        margin: auto;
+        
+    }
+}
+ 
+@media (max-width:1024px){
+    .hijo0{
+        display: flex;
+        width: 90%;   
+        margin-left: 15px;
+        padding-bottom: 20px;     
+    }
+}
+
+/*@media (max-width:1024px){ 
+    #padre h2{
+        width: 80%;
+        
+        color: #fff;
+        padding-bottom: 20px;
+        font-size: 60px;
+    }
+}*/
+

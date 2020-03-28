@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+.clientes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #22a8cb;
+}
+
+.clientes1{
+    background: #22a8cb;
+    padding: 15px;
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulocli{
+    font-size: 30px;
+    color: #fff;
+}
+
+.articulo{
+    width: 300px;
+    font-size: 16px;
+}
+
+.clientes2{
+    background: #22a8cb;;
+    padding: 15px;
+    width: 900px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titulocli1{
+    font-size: 20px;
+    color: #fff;
+}
+
+.articuloA{
+    width: 300px;
+    font-size: 5px;
+    padding-top: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+
+
+
+
+@media (max-width: 1024px){
+    .clientes{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 40px;
+    }
+}
+
