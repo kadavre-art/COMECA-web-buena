@@ -5,14 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMECA</title>
     <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="jquery.scrollUp.js"></script>
+    <script>
+        $(function(){
+            $.scrollUp({
+                scrollImg: true
+            });
+        });
+    </script>
+    
 </head>
+    <link href="favicon.ico.ico.ico" type="image/x-icon" rel="shortcut icon" />
 <body>
     
     <header>
         <div class="contenedor">
-            <img src="imagenes/logo1.png" alt="" width="200px">
-            <!--<h1 class="icon-med"></h1>-->
+           <a href="index.html"><img src="imagenes/logo1.png" alt="" width="200px"></a>
+            
             <input type="checkbox" id="menu-bar">
             <label class="icon-menu" for="menu-bar"></label>
             <nav class="menu">
@@ -29,7 +40,7 @@
         <section id="banner">
             <img src="imagenes/banner.jpg" alt="">
             <div class="contenedor">
-                <h2>COMERCIALIZADORA DE MEDICAMENTOS </h2>
+                <h2>COMERCIALIZADORA DE MEDICAMENTOS</h2>
                 <h3>Y MATERIAL DE CURACIÓN ANTEQUERA S.A. DE C.V.</h3>
                 <p>
                     Comercializamos medicamentos y material de curación, 
@@ -131,30 +142,31 @@
             <div class="contenedor">
                 <div class="info-med">    
                     <a href="">                
-                    <img src="imagenes/icono-productos.png" alt="" width="300px">
+                    <img class="caja animado" src="imagenes/icono-productos.png" alt="" width="300px">
                     </a>                                       
                     <h4>NUESTROS PRODUCTOS</h4>
                     
                 </div>
                 <div class="info-med">
                     <a href="">
-                    <img src="imagenes/icono-socios.png" alt="" width="300px">
+                    <img class="caja animado" src="imagenes/icono-socios.png" alt="" width="300px">
                     </a>
                     <h4>SOCIOS COMERCIALES</h4>
                 </div>
                 <div class="info-med">
                     <a href="">
-                    <img src="imagenes/icono-medicamentos.png" alt="" width="300px">
+                    <img class="caja animado" src="imagenes/icono-medicamentos.png" alt="" width="300px">
                     </a>
+                    <a name="servicios" id="servicios"></a> <!--salto en la misma pagina-->
                     <h4>MEDICAMENTOS</h4>
                 </div>
                 <div class="info-med">
                     <a href="">
-                    <img src="imagenes/icono-curacion.png" alt="" width="300px">
+                    <img class="caja animado" src="imagenes/icono-curacion.png" alt="" width="300px">
                     </a>
                     <h4>MATERIAL DE CURACIÓN</h4>
                 </div>
-                <a name="servicios" id="servicios"></a> <!--salto en la misma pagina-->
+                
             </div>
         </section>
 
@@ -190,9 +202,9 @@
         <section id="socios">
             <div class="socios1">
                 <h4 class="soc">SOCIOS COMERCIALES</h4><br>
-                COMECA S.A. de C.V. ha establecido convenios que generan alianzas estratégicas y  
+               <p class="soci"> COMECA S.A. de C.V. ha establecido convenios que generan alianzas estratégicas y  
                 aseguran la calidad y trazabilidad de los productos que comercializamos, 
-                algunas de las marcas que ofrecemos son:
+                algunas de las marcas que ofrecemos son:</p>
             </div>
         </section>
 
@@ -315,16 +327,16 @@
                 <h5 class="titulocli1">Algunos de nuestros principales clientes son:</h>
                 <br>
                    <article class="articuloA">
-                        <p>1.	Administración del Patrimonio de la Beneficencia pública del Estado de Oaxaca.</p><br>
-                        <p>2.	Hospital Regional De Alta Especialidad De Oaxaca.</p><br>
-                        <p>3.	Hospital de la Niñez Oaxaqueña.</p><br>
-                        <p>4.	Servicios de Salud del Estado de Oaxaca..</p><br>
-                        <p>5.	Colegio de Bachilleres del Estado de Oaxaca. (COBAO).</p><br>
-                        <p>6.	Universidad Autónoma Benito Juárez De Oaxaca UABJO</p><br>
-                        <p>7.	Consejo Estatal para la Prevención y Control del SIDA- CAPASITS</p><br>
-                        <p>8.	Hospital General zona 1, IMSS.</p><br>
-                        <p>9.	Hospital General Zona 41, IMSS.</p><br>                        
-                        <p>10.	Hospital General Almacén 3 de unidad médica, IMSS.</p></article>                    
+                        <p class="lista">1.	Administración del Patrimonio de la Beneficencia pública del Estado de Oaxaca.</p><br>
+                        <p class="lista">2.	Hospital Regional De Alta Especialidad De Oaxaca.</p><br>
+                        <p class="lista">3.	Hospital de la Niñez Oaxaqueña.</p><br>
+                        <p class="lista">4.	Servicios de Salud del Estado de Oaxaca..</p><br>
+                        <p class="lista">5.	Colegio de Bachilleres del Estado de Oaxaca. (COBAO).</p><br>
+                        <p class="lista">6.	Universidad Autónoma Benito Juárez De Oaxaca UABJO</p><br>
+                        <p class="lista">7.	Consejo Estatal para la Prevención y Control del SIDA- CAPASITS</p><br>
+                        <p class="lista">8.	Hospital General zona 1, IMSS.</p><br>
+                        <p class="lista">9.	Hospital General Zona 41, IMSS.</p><br>                        
+                        <p class="lista">10.	Hospital General Almacén 3 de unidad médica, IMSS.</p></article>                    
             </div>
 
 
@@ -337,7 +349,7 @@
     <div class="contacto">               
         <div class="contacto1">
             <form action="enviar.php" method="POST">
-                <h2>CONTACTANOS</h2>
+                <h2 class="cont">CONTACTANOS</h2>
                 <input type="text" name="Nombre" placeholder="Nombre" required>
                 <input type="text" name="Correo" placeholder="Correo" required>
                 <input type="text" name="Telefono" placeholder="Teléfono" required>  
@@ -353,18 +365,33 @@
     <br>
 
     <footer>
-        <div class="contenedor">
-            <img  class="blanco" src="imagenes/logo blanco.png" alt="" width="120px">
-            <p class="copy">Todos los derechos reservados &copy; COMECA 2020</p>
-        <div class="parrafo1">            
-            <p class="copy1">Privada del km 540. No 102 Colonia Sauces, Oaxaca de Juárez, Oaxaca. CP 68010</p>
-        </div>
-        <div class="parrafo2">
-            <p class="copy2">Tel Oficina: 951 549 3029  E-MAIL: contacto@cmmantequera.com</p>
-        </div>
-        <div class="parrafo3">
-            <p class="copy3">Página Web desarrollada por LDG José Palizada Segura</p>
-        </div>
+        <div class="contenedorf">
+            <img  class="blanco" src="imagenes/logo blanco.png" alt="" width="160px"><br>                
+            <div class="parrafo1"> 
+                <p class="copy">Todos los derechos reservados &copy; COMECA 2020</p><br>
+                <div>
+                    <img class="copylugar" src="imagenes/icono lugar.png" alt="" width="15px">           
+                    <p class="copylugar1">Privada del km 540. No 102 Colonia Sauces, Oaxaca de Juárez, Oaxaca. CP 68010</p>
+                </div>
+                <div>
+                    <img class="copytel" src="imagenes/icono telefono.png" alt="" width="15px">
+                    <p class="copytel1">951 549 3029</p>
+                </div>
+                <div>
+                    <img class="copymail" src="imagenes/icono mail.png" alt="" width="15px">
+                    <p class="copymail1">contacto@cmmantequera.com</p><br>
+                </div>
+                
+            </div>
+            <br>
+            <div class="parrafo2">
+                <h4 class="rh">Recursos Humanos</h4><br>
+                <p class="copy2">Con el objetivo de que la empresa desarrolle sus actividades de una manera eficiente y 
+                de calidad, contamos con personal capacitado.</p><br>
+                <img class="copylogo" src="imagenes/logo kadavre blanco.png" alt="" width="25px">
+                <p class="copylogo1">Web desarrollada por LDG José Palizada Segura   5579212076</p>
+            </div>
+                
             <!--<div class="sociales">
                 <a class="icon-facebook" href=""></a>
                 <a class="icon-twitter" href=""></a>
@@ -372,7 +399,7 @@
         </div>        
     </footer>
 
-    <script src="animar.js"></script>
-
+    <script src="animar.js"></script>  
+    
 </body>
 </html>

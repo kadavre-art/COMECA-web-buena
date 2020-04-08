@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;  
+    width: 40px;
+    height: 40px;
+    background-image: url('up1.png');
+    background-size: cover;
+    border-radius: 50%;
+  }
+

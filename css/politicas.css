@@ -41,13 +41,16 @@
 
 @media (max-width: 1024px){
     .textpol{
-        width: 100%;
+        width: 80%;
         padding: 15px;
         color: #fff;
         background: #1c52a2;
+        font-size: 12px;
         
-    }
+    }    
 }
+
+
 
 
 

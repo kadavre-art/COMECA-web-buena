@@ -34,7 +34,7 @@
 .clientes2{
     background: #22a8cb;;
     padding: 15px;
-    width: 900px;
+    width: 500px;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -54,15 +54,14 @@
 }
 
 
-
-
-
 @media (max-width: 1024px){
     .clientes{
-        width: 100%;
+        width: 500px;
+        margin: auto;
         margin-top: 0;
         margin-bottom: 0;
         padding-left: 40px;
+        
     }
 }
 
